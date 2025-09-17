@@ -68,3 +68,10 @@ header{
     color: white;
     padding: 0.2rem;
 }
+
+/* <------------- Main Section Properties-----------> */
+
+.hero{
+    background-color: var(--dro-hero)
+
+}

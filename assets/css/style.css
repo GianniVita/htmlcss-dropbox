@@ -7,23 +7,24 @@
 }
 
 .container{
-    
     width: 80%;
     max-width: 1024px;
-    margin: auto;
-    
+    margin: auto;    
 }
 
 .d-flex{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: .5rem;
 }
 
-.debug{
-    
+.debug *{
+    border: dotted black 1px;
 }
+.debug section{
+    height: 830px;
+}
+
+
+
 
 *{
     font-family: "Roboto", sans-serif;
@@ -33,9 +34,9 @@
     --dro-btn: #0061fe;
     --dro-hero: #b4d0e6;
     --dro-foot: #000000;
-
-
 }
+
+
 
 /* Utilities */
 
@@ -43,15 +44,11 @@ li{
     list-style-type: none
 }
 
-
 a{
     text-decoration: none;
     color: black;
 }
  
-
-
-
 /*  <-------- Navbar Properties --------> */
 header{
     padding: 1rem;
@@ -70,21 +67,19 @@ header{
 }
 
 /* <------------- Main Section Properties-----------> */
-
-
-
-
-.hero{
+#hero{
     background-color: var(--dro-hero);
-    font-size: larger;
-    height: 200px;
+    height: 830px;
     justify-content: center;
 
 }
 
 h1{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 3%rem;
+    height: 100px;
 }
 
 .card-left{
@@ -92,6 +87,12 @@ h1{
     height: 300px;
 }
 
-.card-right{
-    height: 10%;
+.card-right img{
+
+    width: 300px;
+    
+}
+p{
+    width: 100px;
+    height: 200px;
 }

@@ -8,7 +8,7 @@
 
 .container{
     
-    width: 70%;
+    width: 80%;
     max-width: 1024px;
     margin: auto;
     
@@ -71,7 +71,14 @@ header{
 
 /* <------------- Main Section Properties-----------> */
 
-.hero{
-    background-color: var(--dro-hero)
 
+
+
+.hero{
+    background-color: var(--dro-hero);
+    font-size: larger;
+}
+
+h1{
+    align-items: center;
 }

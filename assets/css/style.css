@@ -14,7 +14,6 @@
 
 .d-flex{
     display: flex;
-    padding: .2rem .2rem;
 }
 
 .debug *{
@@ -42,11 +41,14 @@
 /* Utilities */
 
 li{
-    list-style-type: none
+    list-style-type: none;
+    text-align: center;
+
 }
 
 a{
     text-decoration: none;
+    text-align: center;
     color: black;
 }
  
@@ -61,7 +63,7 @@ nav{
 }
 
 .links-left, .links-right{
-    gap:.5rem;
+    padding:.5rem;
 }
 
 .enter{
@@ -79,14 +81,15 @@ nav{
 }
 
 h1{
-    display: flex;
-    justify-content: center;
     align-items: center;
-    font-size: 3%rem;
-    height: 100px;
+    justify-content: center;
+    font-size: 3rem;
+    width: 580px;
+    height: 150px;
 }
 
 .card-left{
+    display:flex;
     background-color: gray;
     height: 300px;
 }
@@ -97,6 +100,11 @@ h1{
     
 }
 p{
-    width: 100px;
+    width: 350px;
     height: 200px;
 }
+
+.center{
+    align-items: center;
+}
+/* End of hero section */

@@ -77,8 +77,21 @@ header{
 .hero{
     background-color: var(--dro-hero);
     font-size: larger;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+
 }
 
 h1{
     align-items: center;
+}
+
+.card-left{
+    background-color: gray;
+    height: 300px;
+}
+
+.card-right{
+    height: 300px;
 }

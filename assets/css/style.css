@@ -78,13 +78,13 @@ header{
     background-color: var(--dro-hero);
     font-size: larger;
     height: 200px;
-    display: flex;
     justify-content: center;
 
 }
 
 h1{
     align-items: center;
+    font-size: 2rem;
 }
 
 .card-left{
@@ -93,5 +93,5 @@ h1{
 }
 
 .card-right{
-    height: 300px;
+    height: 10%;
 }

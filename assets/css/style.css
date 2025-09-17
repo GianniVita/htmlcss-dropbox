@@ -7,15 +7,30 @@
 }
 
 .container{
-    display: flex;
+    
     width: 70%;
     max-width: 1024px;
     margin: auto;
+    
+}
+
+.d-flex{
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: .5rem;
 }
 
 .debug{
     
+}
+
+:root{
+    --dro-btn: #0061fe;
+    --dro-hero: #b4d0e6;
+    --dro-foot: #000000;
+
+
 }
 
 /* Utilities */
@@ -34,4 +49,18 @@ a{
 
 
 /*  <-------- Navbar Properties --------> */
+header{
+    padding: 1rem;
+}
 
+
+
+.links-left, .links-right{
+    gap:.5rem;
+}
+
+.enter{
+    background-color: var(--dro-btn) ;
+    color: white;
+    padding: 0.2rem;
+}

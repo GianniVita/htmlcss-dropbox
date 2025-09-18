@@ -2,9 +2,6 @@
     border: dotted black 1px;
 }
 
-.debug section {
-    height: 830px;
-}
 
 .debug .left-40,
 .debug .right-60 {
@@ -22,9 +19,10 @@
     width: 100px;
 }
 
-.debug div .col-30 {
+.debug .col-30 {
     background-color: #0061fe;
     min-height: 250px;
+
 }
 
 .debug .business {
@@ -34,8 +32,7 @@
 }
 
 .debug .card {
-    height: 900px;
-    width: 300px;
+    height: 450px;
     background-color: blueviolet;
 }
 
@@ -46,13 +43,33 @@
 }
 
 .debug .partners-cont{
-    height: 900px;
     background-color: darkcyan;
 }
 
-.twopeople{
-    
+.debug .twopeople{
+    width: 100px;
 }
+.debug h4{
+    height: 40px;
+    width: 100px;
+}
+
+.debug button{
+    height: 10px;
+    width: 30px;
+    background-color: black;
+}
+
+.debug .enterprise{
+    height: 150px;
+    background-color: aqua;
+}
+.debug #twopeople{
+    width: 50%;
+    height: 200px;
+}
+
+
 
 /* Reset rules */
 
@@ -170,11 +187,13 @@ p {
 .business{
     width: 100%;
 }
+.gap{
+    gap: 1rem;
+}
 
-div .col-30 {
+.col-30 {
     direction: column;
-    width: 30%;
-    padding: 0 2rem;
+    width: calc((100% - 2rem) / 3);
 }
 
 .business {
@@ -182,11 +201,15 @@ div .col-30 {
 }
 
 .card {
-    height: 900px;
-    width: 300px
+    
 }
 
 .full-card {
     display: inline-block;
 
+}
+
+.enterprise{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }

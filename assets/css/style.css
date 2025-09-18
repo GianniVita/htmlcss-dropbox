@@ -167,7 +167,7 @@ nav {
 /* <------------- Main Section Properties-----------> */
 #hero {
     background-color: var(--dro-hero);
-    height: 830px;
+    height: 600px;
     justify-content: center;
 
 }
@@ -194,11 +194,11 @@ p {
 }
 
 .left-40 {
-    width: 40%;
+    width: 35%;
 }
 
 .right-60 {
-    width: 60%;
+    width: 75%;
 }
 
 
@@ -228,6 +228,11 @@ p {
 
 .wrap {
     flex-wrap: wrap;
+}
+
+.jumbo-pic{
+    width: 780px;
+    height: 460px;
 }
 
 /* <--------------Enf of main section--------------------> */

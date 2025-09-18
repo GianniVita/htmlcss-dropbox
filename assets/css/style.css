@@ -1,29 +1,39 @@
-.debug *{
+.debug * {
     border: dotted black 1px;
 }
-.debug section{
+
+.debug section {
     height: 830px;
 }
+
+.debug .left-40,
+.debug .right-60 {
+    min-height: 300px;
+}
+
+
+
 /* Reset rules */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     width: 80%;
     max-width: 1024px;
-    margin: auto;    
+    margin: auto;
 }
 
-.container-small{
+.container-small {
     width: 60%;
     max-width: 900px;
-    margin: auto;    
+    margin: auto;
 }
-.d-flex{
+
+.d-flex {
     display: flex;
 }
 
@@ -31,11 +41,11 @@
 
 
 
-*{
+* {
     font-family: "Roboto", sans-serif;
 }
 
-:root{
+:root {
     --dro-btn: #0061fe;
     --dro-hero: #b4d0e6;
     --dro-foot: #000000;
@@ -45,76 +55,78 @@
 
 /* Utilities */
 
-li{
+li {
     list-style-type: none;
     text-align: center;
 
 }
 
-a{
+a {
     text-decoration: none;
     text-align: center;
     color: black;
 }
- 
+
+
+
 /*  <-------- Navbar Properties --------> */
-header{
+header {
     padding: 1rem;
 }
 
-nav{
+nav {
     align-items: center;
     justify-content: space-between;
 }
 
-.links-left, .links-right{
-    padding:.5rem;
+.links-left,
+.links-right {
+    padding: .5rem;
 }
 
-.enter{
-    background-color: var(--dro-btn) ;
+.enter {
+    background-color: var(--dro-btn);
     color: white;
     padding: 0.2rem;
 }
 
 /* <------------- Main Section Properties-----------> */
-#hero{
+#hero {
     background-color: var(--dro-hero);
     height: 830px;
     justify-content: center;
 
 }
 
-h1{
-    margin: auto;
-    align-items: center;
-    justify-content: center;
+h1 {
     font-size: 3rem;
-    width: 580px;
-    height: 150px;
+
+
 }
 
-.img-hero{
+.img-hero {
     height: 200px;
     width: 200px;
-    
+
 }
-p{
+
+p {
     max-width: 50%;
     height: 200px;
 }
 
-.two-section{
-    margin: auto;
-    padding: 2rem 2rem;
-    vertical-align: middle;
+.two-section {
+    display: flex;
+   
+
 }
 
-.align-center{
-    display: inline-block;
-    padding: 1rem 1rem;
-    vertical-align: middle;
+.left-40 {
+    width: 40%;
 }
 
+.right-60 {
+    width: 60%;
+}
 
 /* End of hero section */

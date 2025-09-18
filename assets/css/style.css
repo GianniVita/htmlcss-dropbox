@@ -86,6 +86,9 @@
     background-color: #0061fe;
 }
 
+.debug footer{
+    background-color: deepskyblue;
+}
 
 
 /* Reset rules */
@@ -244,7 +247,6 @@ footer {
 }
 
 i{
-    display: inline-block;
     width: 20px;
     height: 20px;
 }

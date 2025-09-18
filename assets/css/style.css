@@ -28,7 +28,9 @@
 }
 
 .debug .business {
-    min-width: 300px
+    min-width: 300px;
+    min-height: 900px;
+    background-color: chartreuse;
 }
 
 .debug .card {
@@ -41,6 +43,15 @@
     background-color: aqua;
     height: 250px;
     width: 1000px;
+}
+
+.debug .partners-cont{
+    height: 900px;
+    background-color: darkcyan;
+}
+
+.twopeople{
+    
 }
 
 /* Reset rules */
@@ -155,9 +166,14 @@ p {
     width: 60%;
 }
 
+
+.business{
+    width: 100%;
+}
+
 div .col-30 {
     direction: column;
-    width: 300px calc(100% / 3);
+    width: 30%;
     padding: 0 2rem;
 }
 

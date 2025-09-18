@@ -74,6 +74,15 @@
     background-color: #b4d0e6;
 }
 
+.debug .foot-tlt{
+    width: 170px;
+    background-color: cyan;
+}
+.debug .languages{
+    width: 100px;
+    background-color: #0061fe;
+}
+
 
 
 /* Reset rules */
@@ -203,7 +212,7 @@ p {
 }
 
 .card {
-    
+
 }
 
 .full-card {
@@ -218,4 +227,15 @@ p {
 
 .wrap{
     flex-wrap: wrap;
+}
+
+/* <--------------Enf of main section--------------------> */
+
+/* Footer -------------------> */
+footer{
+    justify-content: space-between;
+}
+
+.languages{
+    
 }

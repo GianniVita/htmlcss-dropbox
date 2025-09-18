@@ -20,6 +20,10 @@
     height: 10px;
     width: 100px;
 }
+.debug div .col-30{
+    background-color: #0061fe;
+    min-height: 250px;
+}
 
 
 /* Reset rules */
@@ -125,11 +129,10 @@ p {
     max-width: 50%;
     height: 150px;
 }
+/* End of hero section */
 
 .two-section {
     display: flex;
-   
-
 }
 
 .left-40 {
@@ -140,4 +143,11 @@ p {
     width: 60%;
 }
 
-/* End of hero section */
+div .col-30{
+    direction: column;
+    width: calc(100% / 3);
+    justify-content: center;
+}    
+.business {
+    justify-content: center;
+}    
